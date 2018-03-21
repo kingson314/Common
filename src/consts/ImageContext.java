@@ -15,7 +15,7 @@ public class ImageContext {
 		try {
 			String basePath = URLDecoder.decode(UtilString.isNil(ImageContext.class.getResource("")), "utf-8");
 			if(!"".equals(basePath)){
-				IconPath = basePath.substring(basePath.indexOf("file:/") + "file:/".length(), basePath.indexOf("bin/")) + "icons/";
+				IconPath = "/"+basePath.substring(basePath.indexOf("file:/") + "file:/".length(), basePath.indexOf("bin/")) + "icons/";
 			}else{
 				IconPath="icons/";
 			}
