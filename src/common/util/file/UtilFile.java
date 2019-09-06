@@ -72,6 +72,7 @@ public class UtilFile {
 	}
 
 	// 锁定文件
+	@SuppressWarnings("resource")
 	public static boolean locked(File File, String FileName) {
 		Boolean rs = true;
 		try {

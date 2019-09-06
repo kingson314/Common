@@ -50,6 +50,7 @@ public class UtilJDBCManager {
 				MapConPool.put(dbcon.getDbName(), cpds);
 			}
 			con = cpds.getConnection();
+//			con.setAutoCommit(false);
 		} catch (SQLException e) {
 			con = null;
 			UtilLog.logError("getConnection[" + dbcon.getDbName() + "]:", e);
@@ -74,6 +75,7 @@ public class UtilJDBCManager {
 			String url = "jdbc:odbc:Driver={Microsoft Access Driver (*.mdb)};DBQ="
 					+ dbcon.getDbCon();
 			con = DriverManager.getConnection(url, prop);
+//			con.setAutoCommit(false);
 			// con = DriverManager.getConnection(dbcon.getDbCon(),
 			// dbcon.getDbUser(),
 			// UtilCrypt.getInstance().decryptAES(dbcon.getDbPassword(),

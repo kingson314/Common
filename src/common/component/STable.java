@@ -31,7 +31,7 @@ public class STable {
 	protected JPopupMenu pmenu;
 
 	// 根据StableBean构造
-	@SuppressWarnings({ "unchecked"})
+	@SuppressWarnings({ "unchecked", "rawtypes"})
 	public STable(final STableBean bean) {
 		try {
 			this.jtable = new JTable() {
@@ -64,9 +64,9 @@ public class STable {
 
 				public void mouseReleased(MouseEvent e) {
 					if (pmenu != null) {
-						if (e.isPopupTrigger()) {
+//						if (e.isPopupTrigger()) {
 							pmenu.show(e.getComponent(), e.getX(), e.getY());
-						}
+//						}
 					}
 				}
 			});

@@ -31,7 +31,7 @@ public class UtilReflect {
 				classAction = action.substring(0, action.indexOf("("));
 				paramAction = action.substring(action.indexOf("(") + 1);
 				// System.out.println(paramAction);
-				paramAction = paramAction.replaceAll("\\\\)", "");
+				paramAction = paramAction.substring(0, paramAction.length()-1);
 			}
 
 			this.className = classAction.substring(0, classAction

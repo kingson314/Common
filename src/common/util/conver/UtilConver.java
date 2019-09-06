@@ -272,7 +272,7 @@ public class UtilConver {
 	 * @throws InvocationTargetException
 	 *             如果调用属性的 setter 方法失败
 	 */
-	@SuppressWarnings("unchecked")
+	@SuppressWarnings("rawtypes")
 	public static Object convertMap(Map map, Class type) throws IntrospectionException, IllegalAccessException, InstantiationException, InvocationTargetException {
 		BeanInfo beanInfo = Introspector.getBeanInfo(type); // 获取类属性
 		Object obj = type.newInstance(); // 创建 JavaBean 对象
@@ -306,7 +306,7 @@ public class UtilConver {
 	 * @throws InvocationTargetException
 	 *             如果调用属性的 setter 方法失败
 	 */
-	@SuppressWarnings("unchecked")
+	@SuppressWarnings({ "unchecked", "rawtypes" })
 	public static Map convertBean(Object bean) throws IntrospectionException, IllegalAccessException, InvocationTargetException {
 		Class type = bean.getClass();
 		Map returnMap = new HashMap();
@@ -609,7 +609,7 @@ public class UtilConver {
 	 * @throws FileNotFoundException
 	 * 
 	 */
-	@SuppressWarnings("unchecked")
+	@SuppressWarnings({  "rawtypes" })
 	public static Map<String, Object> xml2Map(String filePath) throws FileNotFoundException, UnsupportedEncodingException, DocumentException {
 		Document doc = UtilXml.getDocument(filePath);
 		Map<String, Object> map = new HashMap<String, Object>();
@@ -627,7 +627,7 @@ public class UtilConver {
 		return map;
 	}
 
-	@SuppressWarnings("unchecked")
+	@SuppressWarnings({ "rawtypes", "unchecked" })
 	public static Map xmlToMap(Element e) {
 		Map map = new HashMap();
 		List list = e.elements();
@@ -687,7 +687,7 @@ public class UtilConver {
 		return list;
 	}
 
-	@SuppressWarnings("unchecked")
+	@SuppressWarnings("rawtypes")
 	public static List xmlToList(Element e) {
 		List<Object> list = null;
 		list = new ArrayList<Object>();
@@ -730,7 +730,7 @@ public class UtilConver {
 		listToXmlFile(list, "TaskList", filePath);
 	}
 
-	@SuppressWarnings("unchecked")
+	@SuppressWarnings("rawtypes")
 	public static void testXmlToList() throws FileNotFoundException, UnsupportedEncodingException {
 		try {
 			List<Map<String, Object>> list = xmlFileToList("D:/SVN/eFund/RealDataProcess/temp/taskList.xml");
@@ -763,7 +763,7 @@ public class UtilConver {
 		mapsToXmlFile(map, "TaskList", "D:/SVN/eFund/RealDataProcess/temp/taskMap.xml");
 	}
 
-	@SuppressWarnings("unchecked")
+	@SuppressWarnings({ "unchecked", "rawtypes" })
 	public static void testXmlToMaps() throws FileNotFoundException, UnsupportedEncodingException {
 		try {
 			Document document = UtilXml.getDocument("D:/SVN/eFund/RealDataProcess/temp/taskMap.xml");
@@ -818,7 +818,7 @@ public class UtilConver {
 		mapToXmlFile(mapRow, "TaskList", "D:/SVN/eFund/RealDataProcess/temp/taskMap.xml");
 	}
 
-	@SuppressWarnings("unchecked")
+	@SuppressWarnings("rawtypes")
 	public static void testXmlToMap() throws FileNotFoundException, UnsupportedEncodingException {
 		try {
 			Document document = UtilXml.getDocument("D:/SVN/eFund/RealDataProcess/temp/taskMap.xml");

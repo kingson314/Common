@@ -65,6 +65,7 @@ public class HolidayDao {
 	}
 
 	// 填充该日期类型的节假日set
+	@SuppressWarnings("resource")
 	private HashSet<String> fillHolidaySet(String dateType) {
 		HashSet<String> holidayHashSet = new HashSet<String>(365, 0.75f);
 		Statement sm = null;

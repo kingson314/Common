@@ -148,7 +148,7 @@ public class UtilJson {
 	 *            e.g. {'name':'get','int':1,'double',1.1,'null':null}
 	 * @return Map
 	 */
-	@SuppressWarnings("unchecked")
+	@SuppressWarnings({ "unchecked", "rawtypes" })
 	public static Map jsonToMap(String jsonObjStr) {
 		JSONObject jsonObject = JSONObject.fromObject(jsonObjStr);
 
@@ -169,7 +169,7 @@ public class UtilJson {
 	 *            e.g. Person.class
 	 * @return Map
 	 */
-	@SuppressWarnings("unchecked")
+	@SuppressWarnings({ "unchecked", "rawtypes" })
 	public static Map jsonToMap(String jsonObjStr, Class clazz) {
 		JSONObject jsonObject = JSONObject.fromObject(jsonObjStr);
 
@@ -192,7 +192,7 @@ public class UtilJson {
 	 *            e.g. classMap.put("data", Person.class)
 	 * @return Map
 	 */
-	@SuppressWarnings("unchecked")
+	@SuppressWarnings({ "unchecked", "rawtypes" })
 	public static Map jsonToMap(String jsonObjStr, Class clazz, Map classMap) {
 		JSONObject jsonObject = JSONObject.fromObject(jsonObjStr);
 		Map map = new HashMap();
@@ -211,7 +211,6 @@ public class UtilJson {
 	 * @throws Exception
 	 *             String
 	 */
-	@SuppressWarnings("unchecked")
 	public static String objToJson(Object obj) {
 		String jsonStr = null;
 		if (obj instanceof Collection || obj instanceof Object[]) {

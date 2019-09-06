@@ -1513,9 +1513,6 @@ public class UtilSql {
 	    mm = tmpRs.getMetaData();
 	    fieldCount = mm.getColumnCount();
 
-	    if (tmpRs == null) {
-		return null;
-	    }
 	    while (tmpRs.next()) {
 		ds = new HashMap<String, Object>();
 		j = 1;
@@ -1565,9 +1562,6 @@ public class UtilSql {
 	    mm = tmpRs.getMetaData();
 	    fieldCount = mm.getColumnCount();
 
-	    if (tmpRs == null) {
-		return null;
-	    }
 	    while (tmpRs.next()) {
 		ds = new HashMap<String, Object>();
 		j = 1;
@@ -1708,9 +1702,6 @@ public class UtilSql {
 	    mm = tmpRs.getMetaData();
 	    fieldCount = mm.getColumnCount();
 
-	    if (tmpRs == null) {
-		return null;
-	    }
 	    while (tmpRs.next()) {
 		j = 1;
 		for (i = 0; i < fieldCount; i++) {
@@ -1857,9 +1848,6 @@ public class UtilSql {
 	    mm = tmpRs.getMetaData();
 	    fieldCount = mm.getColumnCount();
 
-	    if (tmpRs == null) {
-		return null;
-	    }
 	    while (tmpRs.next()) {
 		ds = new HashMap<String, String>();
 		j = 1;
@@ -1909,9 +1897,6 @@ public class UtilSql {
 	    mm = tmpRs.getMetaData();
 	    fieldCount = mm.getColumnCount();
 
-	    if (tmpRs == null) {
-		return null;
-	    }
 	    while (tmpRs.next()) {
 		ds = new HashMap<String, String>();
 		j = 1;
@@ -2168,7 +2153,8 @@ public class UtilSql {
     /**
      * 更新 param tableName 表名
      */
-    public static int update(Connection con, String tableName, Map<String, Object> params, String byWhat, String otherCondition) throws SQLException {
+    @SuppressWarnings("resource")
+	public static int update(Connection con, String tableName, Map<String, Object> params, String byWhat, String otherCondition) throws SQLException {
 	int num = -1;
 	PreparedStatement ps = null;
 	ResultSet rs = null;

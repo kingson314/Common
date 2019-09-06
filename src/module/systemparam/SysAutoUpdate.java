@@ -26,6 +26,7 @@ public class SysAutoUpdate {
 	}
 
 	// 自动更新
+	@SuppressWarnings("resource")
 	public boolean autoUpdate() {
 		Statement sm = null;
 		ResultSet rs = null;

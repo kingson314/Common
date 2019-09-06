@@ -64,7 +64,8 @@ public class UtilCrypt {
 	 */
 	public String encryptAES(String content, String key) {
 		try {
-			if(1==1)return content;
+			int i=1;
+			if(i==1)return content;
 			SecretKeySpec secretKey = (SecretKeySpec) initKeyForAES(key);
 			Cipher cipher = Cipher.getInstance("AES");// 创建密码器
 			byte[] byteContent = content.getBytes("utf-8");
@@ -86,7 +87,8 @@ public class UtilCrypt {
 	 */
 	public String decryptAES(String content, String key) {
 		try {
-			if(1==1)return content;
+			int i=1;
+			if(i==1)return content;
 			if ("".equalsIgnoreCase(UtilString.isNil(content)))
 				return "";
 			SecretKeySpec secretKey = (SecretKeySpec) initKeyForAES(key);

@@ -2,12 +2,12 @@
 <classpath>
 	<classpathentry kind="src" path="src"/>
 	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
-	<classpathentry kind="lib" path="lib/dom4j-1.6.1.jar"/>
+	<classpathentry kind="lib" path="lib/dom4j-1.6.1.jar" sourcepath="/var/folders/k4/5s9288rs0gdbq81yb69524400000gn/T/.org.sf.feeling.decompiler1564480073326/source/dom4j-1.6.1-sources-1564709001999.jar"/>
 	<classpathentry kind="lib" path="lib/log4j-1.2.14.jar"/>
 	<classpathentry kind="lib" path="lib/spring/spring-core-4.0.0.M2.jar"/>
 	<classpathentry kind="lib" path="lib/json/jackson-all-1.9.0.jar"/>
 	<classpathentry kind="lib" path="lib/mybatis/mybatis-3.1.1.jar"/>
-	<classpathentry kind="lib" path="lib/c3p0/c3p0-0.9.1.jar"/>
+	<classpathentry kind="lib" path="lib/c3p0/c3p0-0.9.1.jar" sourcepath="/var/folders/k4/5s9288rs0gdbq81yb69524400000gn/T/.org.sf.feeling.decompiler1564480073326/source/c3p0-0.9.1-sources.jar"/>
 	<classpathentry kind="lib" path="lib/ftp/ftp4j-1.5.1.jar"/>
 	<classpathentry kind="lib" path="lib/ftp/jsch-0.1.25.jar"/>
 	<classpathentry kind="lib" path="lib/lookAndFeel/JTattoo.jar"/>
@@ -33,8 +33,6 @@
 	<classpathentry kind="lib" path="lib/jetty8.1.4/jetty-websocket-8.1.4.v20120524.jar"/>
 	<classpathentry kind="lib" path="lib/jetty8.1.4/jetty-xml-8.1.4.v20120524.jar"/>
 	<classpathentry kind="lib" path="lib/jetty8.1.4/servlet-api-3.0.jar"/>
-	<classpathentry kind="lib" path="lib/httpClient/commons-codec-1.3.jar"/>
-	<classpathentry kind="lib" path="lib/httpClient/commons-httpclient-3.0-rc3.jar"/>
 	<classpathentry kind="lib" path="lib/mail/mail_j2ee_1.4.jar"/>
 	<classpathentry kind="lib" path="lib/jdbc/classes12.jar"/>
 	<classpathentry kind="lib" path="lib/jdbc/sqljdbc4.jar"/>
@@ -43,5 +41,80 @@
 	<classpathentry kind="lib" path="lib/jfreechart/jcommon-1.0.17.jar"/>
 	<classpathentry kind="lib" path="lib/c3p0/mysql-connector-java-5.1.26-bin.jar"/>
 	<classpathentry kind="lib" path="lib/c3p0/sqljdbc4.jar"/>
+	<classpathentry kind="lib" path="lib/jsoup/jsoup-1.9.2.jar"/>
+	<classpathentry kind="lib" path="lib/http/commons-cli-1.2.jar"/>
+	<classpathentry kind="lib" path="lib/http/commons-codec-1.11.jar"/>
+	<classpathentry kind="lib" path="lib/http/commons-logging-1.2.jar"/>
+	<classpathentry kind="lib" path="lib/http/fluent-hc-4.5.9.jar"/>
+	<classpathentry kind="lib" path="lib/http/httpclient-4.5.9.jar"/>
+	<classpathentry kind="lib" path="lib/http/httpclient-cache-4.5.9.jar"/>
+	<classpathentry kind="lib" path="lib/http/httpclient-osgi-4.5.9.jar"/>
+	<classpathentry kind="lib" path="lib/http/httpclient-win-4.5.9.jar"/>
+	<classpathentry kind="lib" path="lib/http/httpcore-4.4.11.jar"/>
+	<classpathentry kind="lib" path="lib/http/httpcore-ab-4.4.11.jar"/>
+	<classpathentry kind="lib" path="lib/http/httpcore-nio-4.4.11.jar"/>
+	<classpathentry kind="lib" path="lib/http/httpcore-osgi-4.4.11.jar"/>
+	<classpathentry kind="lib" path="lib/http/httpmime-4.5.9.jar"/>
+	<classpathentry kind="lib" path="lib/http/jna-4.5.2.jar"/>
+	<classpathentry kind="lib" path="lib/http/jna-platform-4.5.2.jar"/>
+	<classpathentry kind="lib" path="lib/httpClient/commons-codec-1.3.jar"/>
+	<classpathentry kind="lib" path="lib/httpClient/commons-httpclient-3.0-rc3.jar"/>
+	<classpathentry kind="lib" path="lib/elasticsearch/elasticsearch-6.4.3.jar"/>
+	<classpathentry kind="lib" path="lib/elasticsearch/elasticsearch-cli-6.4.3.jar"/>
+	<classpathentry kind="lib" path="lib/elasticsearch/elasticsearch-core-6.4.3.jar"/>
+	<classpathentry kind="lib" path="lib/elasticsearch/elasticsearch-rest-client-6.4.3.jar"/>
+	<classpathentry kind="lib" path="lib/elasticsearch/elasticsearch-rest-high-level-client-6.5.2.jar"/>
+	<classpathentry kind="lib" path="lib/elasticsearch/elasticsearch-secure-sm-6.4.3.jar"/>
+	<classpathentry kind="lib" path="lib/elasticsearch/elasticsearch-x-content-6.4.3.jar"/>
+	<classpathentry kind="lib" path="lib/elasticsearch/transport-6.5.2.jar"/>
+	<classpathentry kind="lib" path="lib/elasticsearch/transport-netty4-client-6.4.3.jar"/>
+	<classpathentry kind="lib" path="lib/log4j-api-2.11.1.jar"/>
+	<classpathentry kind="lib" path="lib/log4j-to-slf4j-2.11.1.jar"/>
+	<classpathentry kind="lib" path="lib/elasticsearch/aggs-matrix-stats-client-6.5.2.jar"/>
+	<classpathentry kind="lib" path="lib/elasticsearch/commons-codec-1.11.jar"/>
+	<classpathentry kind="lib" path="lib/elasticsearch/compiler-0.9.3.jar"/>
+	<classpathentry kind="lib" path="lib/elasticsearch/HdrHistogram-2.1.9.jar"/>
+	<classpathentry kind="lib" path="lib/elasticsearch/hppc-0.7.1.jar"/>
+	<classpathentry kind="lib" path="lib/elasticsearch/httpasyncclient-4.1.4.jar"/>
+	<classpathentry kind="lib" path="lib/elasticsearch/httpclient-4.5.6.jar"/>
+	<classpathentry kind="lib" path="lib/elasticsearch/httpcore-4.4.10.jar"/>
+	<classpathentry kind="lib" path="lib/elasticsearch/httpcore-nio-4.4.10.jar"/>
+	<classpathentry kind="lib" path="lib/elasticsearch/jackson-core-2.9.8.jar"/>
+	<classpathentry kind="lib" path="lib/elasticsearch/jackson-dataformat-cbor-2.9.8.jar"/>
+	<classpathentry kind="lib" path="lib/elasticsearch/jackson-dataformat-smile-2.9.8.jar"/>
+	<classpathentry kind="lib" path="lib/elasticsearch/jackson-dataformat-yaml-2.9.8.jar"/>
+	<classpathentry kind="lib" path="lib/elasticsearch/jna-4.5.1.jar"/>
+	<classpathentry kind="lib" path="lib/elasticsearch/joda-time-2.10.1.jar"/>
+	<classpathentry kind="lib" path="lib/elasticsearch/jopt-simple-5.0.2.jar"/>
+	<classpathentry kind="lib" path="lib/elasticsearch/lang-mustache-client-6.5.2.jar"/>
+	<classpathentry kind="lib" path="lib/elasticsearch/log4j-api-2.11.1.jar"/>
+	<classpathentry kind="lib" path="lib/elasticsearch/lucene-analyzers-common-7.4.0.jar"/>
+	<classpathentry kind="lib" path="lib/elasticsearch/lucene-backward-codecs-7.4.0.jar"/>
+	<classpathentry kind="lib" path="lib/elasticsearch/lucene-core-7.4.0.jar"/>
+	<classpathentry kind="lib" path="lib/elasticsearch/lucene-grouping-7.4.0.jar"/>
+	<classpathentry kind="lib" path="lib/elasticsearch/lucene-highlighter-7.4.0.jar"/>
+	<classpathentry kind="lib" path="lib/elasticsearch/lucene-join-7.4.0.jar"/>
+	<classpathentry kind="lib" path="lib/elasticsearch/lucene-memory-7.4.0.jar"/>
+	<classpathentry kind="lib" path="lib/elasticsearch/lucene-misc-7.4.0.jar"/>
+	<classpathentry kind="lib" path="lib/elasticsearch/lucene-queries-7.4.0.jar"/>
+	<classpathentry kind="lib" path="lib/elasticsearch/lucene-queryparser-7.4.0.jar"/>
+	<classpathentry kind="lib" path="lib/elasticsearch/lucene-sandbox-7.4.0.jar"/>
+	<classpathentry kind="lib" path="lib/elasticsearch/lucene-spatial-7.4.0.jar"/>
+	<classpathentry kind="lib" path="lib/elasticsearch/lucene-spatial-extras-7.4.0.jar"/>
+	<classpathentry kind="lib" path="lib/elasticsearch/lucene-spatial3d-7.4.0.jar"/>
+	<classpathentry kind="lib" path="lib/elasticsearch/lucene-suggest-7.4.0.jar"/>
+	<classpathentry kind="lib" path="lib/elasticsearch/netty-buffer-4.1.31.Final.jar"/>
+	<classpathentry kind="lib" path="lib/elasticsearch/netty-codec-4.1.31.Final.jar"/>
+	<classpathentry kind="lib" path="lib/elasticsearch/netty-codec-http-4.1.31.Final.jar"/>
+	<classpathentry kind="lib" path="lib/elasticsearch/netty-common-4.1.31.Final.jar"/>
+	<classpathentry kind="lib" path="lib/elasticsearch/netty-handler-4.1.31.Final.jar"/>
+	<classpathentry kind="lib" path="lib/elasticsearch/netty-resolver-4.1.31.Final.jar"/>
+	<classpathentry kind="lib" path="lib/elasticsearch/netty-transport-4.1.31.Final.jar"/>
+	<classpathentry kind="lib" path="lib/elasticsearch/parent-join-client-6.5.2.jar"/>
+	<classpathentry kind="lib" path="lib/elasticsearch/percolator-client-6.5.2.jar"/>
+	<classpathentry kind="lib" path="lib/elasticsearch/rank-eval-client-6.5.2.jar"/>
+	<classpathentry kind="lib" path="lib/elasticsearch/reindex-client-6.5.2.jar"/>
+	<classpathentry kind="lib" path="lib/elasticsearch/snakeyaml-1.23.jar"/>
+	<classpathentry kind="lib" path="lib/elasticsearch/t-digest-3.2.jar"/>
 	<classpathentry kind="output" path="bin"/>
 </classpath>
