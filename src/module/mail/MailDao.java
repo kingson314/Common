@@ -6,10 +6,11 @@ import java.sql.ResultSet;
 import java.sql.SQLException;
 import java.sql.Statement;
 import java.util.Vector;
+
+import app.AppCon;
 import common.util.jdbc.UtilJDBCManager;
 import common.util.jdbc.UtilSql;
 import common.util.log.UtilLog;
-import app.AppCon;
 
 public class MailDao {
 	public static MailDao maildao = null;

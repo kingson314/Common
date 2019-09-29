@@ -1,6 +1,8 @@
 package common.component;
 
-import java.sql.*;
+import java.sql.ResultSet;
+import java.sql.ResultSetMetaData;
+import java.sql.SQLException;
 
 import javax.swing.table.AbstractTableModel;
 

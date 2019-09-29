@@ -3,7 +3,9 @@ package common.component;
 import java.awt.GridLayout;
 import java.awt.Toolkit;
 import java.awt.event.WindowAdapter;
+
 import javax.swing.JTable;
+
 import common.util.log.UtilLog;
 
 public class MessageDialog extends SDialog {

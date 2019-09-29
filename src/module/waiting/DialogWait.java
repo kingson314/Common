@@ -3,6 +3,7 @@ package module.waiting;
 import java.awt.Color;
 import java.awt.Font;
 import java.awt.Toolkit;
+
 import javax.swing.JWindow;
 
 import common.component.SLabel;

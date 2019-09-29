@@ -3,7 +3,9 @@ package common.jfreechart.dataset;
 import java.sql.Connection;
 import java.util.HashMap;
 import java.util.List;
+
 import org.jfree.data.category.DefaultCategoryDataset;
+
 import common.util.jdbc.UtilSql;
 
 public class Dataset {

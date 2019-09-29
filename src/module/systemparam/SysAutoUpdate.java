@@ -5,10 +5,11 @@ import java.sql.Connection;
 import java.sql.PreparedStatement;
 import java.sql.ResultSet;
 import java.sql.Statement;
+
+import app.AppCon;
 import common.util.jdbc.UtilJDBCManager;
 import common.util.jdbc.UtilSql;
 import common.util.log.UtilLog;
-import app.AppCon;
 
 public class SysAutoUpdate {
 	private Connection con;

@@ -1,6 +1,7 @@
 package module.systemparam;
 
 import java.util.Vector;
+
 import javax.swing.JTable;
 
 import common.component.STable;

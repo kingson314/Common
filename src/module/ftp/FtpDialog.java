@@ -1,10 +1,10 @@
 package module.ftp;
 
-import it.sauronsoftware.ftp4j.FTPClient;
 import java.awt.Toolkit;
 import java.awt.event.MouseAdapter;
 import java.awt.event.MouseEvent;
 import java.util.Properties;
+
 import javax.swing.JPanel;
 import javax.swing.JPasswordField;
 import javax.swing.JTable;
@@ -23,6 +23,7 @@ import common.util.security.UtilCrypt;
 import common.util.string.UtilString;
 import consts.Const;
 import consts.ImageContext;
+import it.sauronsoftware.ftp4j.FTPClient;
 
 public class FtpDialog extends DialogTableModel {
 

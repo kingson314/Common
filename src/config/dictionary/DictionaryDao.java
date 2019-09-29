@@ -7,7 +7,6 @@ import java.util.HashMap;
 import java.util.List;
 import java.util.Vector;
 
-
 import common.util.bean.KeyValue;
 import common.util.jdbc.UtilJDBCManager;
 import common.util.jdbc.UtilSql;

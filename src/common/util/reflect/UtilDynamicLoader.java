@@ -1,8 +1,8 @@
 package common.util.reflect;
 
-import java.net.URLClassLoader;
 import java.net.MalformedURLException;
 import java.net.URL;
+import java.net.URLClassLoader;
 
 public class UtilDynamicLoader extends URLClassLoader {
 

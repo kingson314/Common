@@ -5,7 +5,6 @@ import java.awt.event.ItemEvent;
 import java.awt.event.ItemListener;
 
 import javax.swing.DefaultCellEditor;
-
 import javax.swing.JTable;
 
 class CheckButtonEditor extends DefaultCellEditor implements ItemListener {

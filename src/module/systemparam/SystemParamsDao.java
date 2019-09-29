@@ -10,7 +10,6 @@ import java.util.List;
 import java.util.Vector;
 
 import app.AppCon;
-
 import common.util.jdbc.UtilJDBCManager;
 import common.util.jdbc.UtilSql;
 import common.util.log.UtilLog;

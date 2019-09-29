@@ -4,7 +4,6 @@ import java.awt.Component;
 import java.awt.event.MouseAdapter;
 import java.awt.event.MouseEvent;
 
-
 import javax.swing.JComponent;
 import javax.swing.JTable;
 import javax.swing.SwingConstants;

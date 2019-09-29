@@ -9,7 +9,6 @@ import javax.swing.JPanel;
 import javax.swing.JTable;
 import javax.swing.JToolBar;
 
-
 import common.util.log.UtilLog;
 import consts.ImageContext;
 

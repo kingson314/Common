@@ -2,10 +2,9 @@ package app;
 
 import java.awt.Dimension;
 import java.awt.Toolkit;
+
 import javax.swing.JToolBar;
 import javax.swing.SwingConstants;
-
-import module.datetype.NowDateDao;
 
 import common.component.SBorder;
 import common.component.SLabel;
@@ -13,6 +12,7 @@ import common.util.conver.UtilConver;
 import common.util.log.UtilLog;
 import common.util.string.UtilString;
 import consts.Const;
+import module.datetype.NowDateDao;
 
 /**
  * @info 程序状态栏

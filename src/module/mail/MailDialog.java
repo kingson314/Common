@@ -8,7 +8,6 @@ import javax.swing.JPanel;
 import javax.swing.JPasswordField;
 import javax.swing.JTable;
 
-
 import common.component.DialogTableModel;
 import common.component.SLabel;
 import common.component.STextField;

@@ -3,7 +3,9 @@ package module.about;
 import java.awt.Font;
 import java.awt.GridLayout;
 import java.awt.Toolkit;
+
 import javax.swing.JTextPane;
+
 import app.AppConfig;
 import common.component.SDialog;
 import common.component.SLabel;

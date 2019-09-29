@@ -22,7 +22,6 @@ import javax.swing.table.TableModel;
 import javax.swing.table.TableRowSorter;
 
 import common.util.string.UtilString;
-
 import consts.ImageContext;
 
 public class STable {

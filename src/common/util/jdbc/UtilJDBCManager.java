@@ -7,12 +7,14 @@ import java.sql.SQLException;
 import java.sql.Statement;
 import java.util.Properties;
 import java.util.concurrent.ConcurrentHashMap;
-import module.dbconnection.DbConnection;
-import module.dbconnection.DbConnectionDao;
+
 import com.mchange.v2.c3p0.ComboPooledDataSource;
+
 import common.util.log.UtilLog;
 import common.util.security.UtilCrypt;
 import consts.Const;
+import module.dbconnection.DbConnection;
+import module.dbconnection.DbConnectionDao;
 
 /**
  * 数据库连接池
